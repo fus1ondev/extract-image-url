@@ -1,4 +1,4 @@
-# extract-image-url
+# extract-img-url
 
 This package extracts the first image URL of a Markdown text.
 
@@ -7,16 +7,16 @@ In this package, only regular expressions are used, so it is fast.
 ## Installation
 
 ```bash
-npm install extract-image-url
+npm install extract-img-url
 ```
 
 ## Usage
 
 ```js
-const extractImageUrl = require('extract-image-url');
+const extractImgUrl = require('extract-img-url');
 
 const markdown = '# Hello World\n\n![image](https://example.com/image.png)';
-const imageUrl = extractImageUrl(markdown);
+const imageUrl = extractImgUrl(markdown);
 
 console.log(imageUrl);
 

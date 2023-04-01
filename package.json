@@ -1,5 +1,5 @@
 {
-  "name": "extract-image-url",
+  "name": "extract-img-url",
   "version": "0.1.0",
   "description": "Extract first image url from markdown",
   "main": "dist/index.js",
