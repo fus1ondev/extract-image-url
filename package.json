@@ -1,6 +1,6 @@
 {
   "name": "extract-img-url",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract first image url from markdown",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,10 @@
     "typescript": "^5.0.3"
   },
   "jest": {
-    "moduleFileExtensions": ["ts", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
     "globals": {
       "ts-jest": {
         "tsconfig": "tsconfig.json"
