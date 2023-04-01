@@ -1,9 +1,9 @@
 # CHANGELOG
 
-## v1.0.1
+## v0.1.1
 
 - Make title attribute detection stricter
 
-## v1.0.0
+## v0.1.0
 
 - First release
