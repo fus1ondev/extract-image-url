@@ -12,8 +12,8 @@ npm install extract-img-url
 
 ## Usage
 
-```js
-const extractImgUrl = require('extract-img-url');
+```typescript
+import { extractImgUrl } from 'extract-img-url';
 
 const markdown = '# Hello World\n\n![image](https://example.com/image.png)';
 const imageUrl = extractImgUrl(markdown);
@@ -28,7 +28,6 @@ The following formats are supported:
 ```markdown
 ![image](https://example.com/image.png)
 ![image](https://example.com/image.png "title")
-![image](https://example.com/image.png title)
 
 <img src="https://example.com/image.png" >
 <img src="https://example.com/image.png" alt="image" />

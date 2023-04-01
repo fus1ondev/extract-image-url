@@ -8,7 +8,7 @@ describe('extractImgUrl', () => {
   });
 
   test('should extract image url from `![]()` with title text', () => {
-    const markdown = '![alt text](https://example.com/image.png title)';
+    const markdown = '![alt text](https://example.com/image.png "title")';
     const url = extractImgUrl(markdown);
     expect(url).toBe('https://example.com/image.png');
   });
